@@ -11,7 +11,7 @@ public class LoopEx {
 	//	continueEx();
 	//	breakEx();
 	//	randomEx();
-		guguFor();
+	//	guguFor();
 	
 	}
 	public static void randomEx() {
@@ -56,12 +56,6 @@ public class LoopEx {
 		// 2단부터 9단까지의 구구단 표를 for문을 이용하여 출력
 		Scanner scanner = new Scanner(System.in);		
 		int dan = scanner.nextInt();
-		
-		
-		for (int num = 1; num <= 9; num++) {
-			System.out.println(dan + " * " + num + " = " + dan * num);		
-	}
-		scanner.close();
 	}
 	public static void starsFor() {
 		//	아래와 같이 루프를 돌며 출력 for문 이용
@@ -71,7 +65,7 @@ public class LoopEx {
 		 **
 		 ***
 		 **** 
-		 *****/
+		 ***** */
 	}
 
 	public static void guguWhile() {
